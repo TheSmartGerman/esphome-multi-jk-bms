@@ -1,0 +1,25 @@
+debug:
+  update_interval: 15s
+
+text_sensor:
+  # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug #
+  - platform: debug
+    device:
+      name: "Device Info"
+    reset_reason:
+      name: "Reset Reason"
+# Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug #
+
+sensor:
+  #  Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug #
+  - platform: debug
+    free:
+      name: "Heap Free"
+    # ESP8266 only
+    #    fragmentation:
+    #      name: "Heap Fragmentation"
+    block:
+      name: "Heap Max Block"
+    loop_time:
+      name: "Loop Time"
+#  Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug # Debug #

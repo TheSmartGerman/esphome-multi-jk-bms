@@ -1,0 +1,4 @@
+switch:
+  # Expose an ESP32 restart button to HA
+  - platform: restart
+    name: ${varFriendlyName} ESP32 Restart
