@@ -15,7 +15,7 @@ Just define your substitutions:
   bms0_protocol_version: JK02_32S
 ```
 
-And include multible bms:
+And include multiple bms:
 
 ```
   multiple_bms_0: !include 
